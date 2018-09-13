@@ -49,5 +49,3 @@ def shoe_size(hash)
     end
   end
 end
-
-def team_colors(hash)
