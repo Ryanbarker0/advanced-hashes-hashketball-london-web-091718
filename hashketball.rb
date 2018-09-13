@@ -40,7 +40,9 @@ end
 
 def shoe_size(hash)
   game_hash.each do |key, value|
+    binding.pry
     value[:players].each do |key1, value1|
+      binding.pry
         if key1 == hash
           return value1[:shoe]
       end
@@ -49,5 +51,3 @@ def shoe_size(hash)
 end
 
 def team_colors(hash)
-  
-  
