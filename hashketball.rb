@@ -28,11 +28,9 @@ end
 
 def num_points_scored(hash)
   game_hash.each do |key, value|
-    value.each do |key1, value1|
-      value1.each do |key2, value2|
-        if value2 == :points
-          puts "#{key2}: #{value2}"
-        end
+    value[:players].each do |key1, value1|
+        if key1 == hash
+          return value1[:points]
       end
     end
   end
