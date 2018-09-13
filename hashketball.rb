@@ -1,3 +1,5 @@
+require 'pry'
+
 def game_hash
   hash = {
     :home => {
@@ -45,4 +47,7 @@ def shoe_size(hash)
     end
   end
 end
+
+def team_colors(hash)
+  
   
