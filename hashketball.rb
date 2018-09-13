@@ -35,4 +35,3 @@ def num_points_scored(hash)
     end
   end
 end
-    
